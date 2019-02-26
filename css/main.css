@@ -32,6 +32,11 @@ body, html {
     margin-bottom: 0px;
 }
 
+#removeBottomMargin3 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
 #textBlink {
     margin-bottom: 20px;
 }
@@ -65,5 +70,9 @@ img {
 }
 
 .top-margin-about-us {
+    margin-top: 20px;
+}
+
+#top-margin-testimonies {
     margin-top: 20px;
 }
