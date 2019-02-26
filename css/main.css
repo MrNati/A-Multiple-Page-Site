@@ -51,3 +51,19 @@ img {
     height: 20px;
     float: right;
 }
+
+#about-us-page {
+    margin-bottom: 0px;
+}
+
+#list-items {
+    margin-left: 50px;
+}
+
+.bottom-margin-about-us {
+    margin-bottom: 20px;
+}
+
+.top-margin-about-us {
+    margin-top: 20px;
+}
