@@ -68,12 +68,16 @@
 	color:#0077e2;
 }
 
-#myFooter .google:hover{
+#myFooter .youtube:hover{
 	color:#ef1a1a;
 }
 
 #myFooter .twitter:hover{
 	color: #00aced;
+}
+
+#myFooter .instagram:hover{
+	color: #f52f2f;
 }
 
 @media screen and (max-width: 767px){
