@@ -1,7 +1,22 @@
 #removeBottomMargin {
     margin-bottom: 0px;
+
+}
+
+#removeBottomMargin2 {
+    margin-bottom: 0px;
 }
 
 #textBlink {
     margin-bottom: 20px;
+}
+
+#agentIntro {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
 }
