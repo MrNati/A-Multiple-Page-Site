@@ -15,6 +15,9 @@
         <!-- Footer style -->
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!-- Mapbox link -->
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet'/>
     </head>
     
     <body>
@@ -49,7 +52,6 @@
         
         <!-- Welcome banner image -->
         <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/contact-us.jpg');">
-            <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@melindagimpel?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Melinda Gimpel"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Melinda Gimpel</span></a>
             <div class="hero-text">
                 <h1>Contact Us</h1>
             </div>
@@ -57,9 +59,14 @@
 
         <main>
             <div id="removeBottomMargin" class="container-fluid jumbotron">
-                <div class="row">
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6"></div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Mapbox -->
+                        <div class="col-md-6">
+                            <div id='map'></div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -114,6 +121,7 @@
         
         <!-- Link to the JS file -->
         <script src="js/script.js"></script>
+        <script src="js/mapbox.js"></script>
     </body>
     
     </html>

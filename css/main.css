@@ -76,3 +76,17 @@ img {
 #bottom-margin-testimonies {
     margin-bottom: 40px;
 }
+
+#map {
+    width: 500px; 
+    height: 400px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+@media only screen and (max-width: 440px) {
+    #map {
+      width: 400px;
+      height: 250px;
+    }
+}
