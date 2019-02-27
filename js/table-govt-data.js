@@ -54,4 +54,4 @@ let objects1 = [
 // The file can use found in table.js
 //
 //
-buildTable(labels1, objects1, document.getElementById('tableDiv'));
+buildTable(labels1, objects1, document.getElementById('tableGovtData'));
