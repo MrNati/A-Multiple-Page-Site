@@ -5,8 +5,20 @@ body, html {
 }
 
 #logo {
-    width: 100px;
+    width: 80px;
     height: auto;
+}
+
+#navLogo {
+    position: relative;
+}
+
+#navLogoText {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top:40px;
+    right: -30px;
 }
 
 .hero-image {
@@ -99,5 +111,19 @@ img {
 @media only screen and (max-width: 440px) {
     #home-banner-message {
         font-size: 30px;
+    }
+}
+
+/* hide home button once toggle button appears */
+@media only screen and (max-width: 991px) {
+    #hide {
+        visibility: hidden;
+    }
+    #onCollapse {
+        border-top: 1px solid white;
+    }
+    #navLogoText {
+        top:50px;
+        right: -44px;
     }
 }
