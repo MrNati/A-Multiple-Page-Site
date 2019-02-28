@@ -5,8 +5,8 @@ body, html {
 }
 
 #logo {
-    width: 80px;
-    height: auto;
+    width: 50px;
+    height: 40px;
 }
 
 #navLogo {
@@ -17,8 +17,8 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
     position: absolute;
-    top:40px;
-    right: -30px;
+    top:42px;
+    right: -60px;
 }
 
 .hero-image {
@@ -147,6 +147,6 @@ img {
         border-top: 1px solid white;
     }
     #navLogoText {
-        right: -44px;
+        right: -72px;
     }
 }
