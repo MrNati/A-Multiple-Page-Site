@@ -75,6 +75,25 @@ body, html {
     font-size: 20px;
 }
 
+/* Form style */
+::placeholder {
+    color: grey!important;
+    font-size: 13px!important;
+    font-style: italic!important;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: grey!important;
+    font-size: 13px!important;
+    font-style: italic!important;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: grey!important;
+    font-size: 13px!important;
+    font-style: italic!important;
+}
+
 /* Others */
 
 #removeBottomMargin {
@@ -93,6 +112,7 @@ body, html {
 
 #textBlink {
     margin-bottom: 20px;
+    color: blueviolet;
 }
 
 #agentIntro {
