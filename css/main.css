@@ -40,6 +40,16 @@ body, html {
     color: rgb(142, 241, 208);
 }
 
+#welcomeMessageImage {
+    width: 500px; 
+    height: auto; 
+    max-width: 100%;
+    border-radius: 10%;
+    display: block; 
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
 #removeBottomMargin {
     margin-bottom: 0px;
 
