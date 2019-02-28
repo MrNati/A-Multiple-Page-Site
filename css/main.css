@@ -4,10 +4,14 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Webpage logo */
+
 #logo {
     width: 50px;
     height: 40px;
 }
+
+/* Navigation Menu */
 
 #navLogo {
     position: relative;
@@ -20,6 +24,33 @@ body, html {
     top:42px;
     right: -60px;
 }
+
+.navbar {
+    border-bottom: 1px solid #BBBBBB;
+}
+  
+.nav-link {
+    position: relative;
+}
+  
+.nav-link::before {
+    position: absolute;
+    transition: 300ms;
+    height: 1px;
+    content: "";
+    background-color: white;
+}
+  
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 5px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 100%;
+}
+
+/* Front page banner */
 
 .hero-image {
     height: 50%;
@@ -44,15 +75,7 @@ body, html {
     font-size: 20px;
 }
 
-/* #welcomeMessageImage {
-    width: 500px; 
-    height: auto; 
-    max-width: 100%;
-    border-radius: 10%;
-    display: block; 
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
-} */
+/* Others */
 
 #removeBottomMargin {
     margin-bottom: 0px;
