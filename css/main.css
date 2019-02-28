@@ -40,7 +40,7 @@ body, html {
     color: rgb(142, 241, 208);
 }
 
-#welcomeMessageImage {
+/* #welcomeMessageImage {
     width: 500px; 
     height: auto; 
     max-width: 100%;
@@ -48,7 +48,7 @@ body, html {
     display: block; 
     -webkit-filter: blur(1px);
     filter: blur(1px);
-}
+} */
 
 #removeBottomMargin {
     margin-bottom: 0px;
@@ -71,6 +71,7 @@ body, html {
 #agentIntro {
     margin-top: 40px;
     font-size: 20px;
+    color: white;
 }
 
 #agentImage {
