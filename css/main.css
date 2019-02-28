@@ -63,6 +63,15 @@ body, html {
     font-size: 20px;
 }
 
+#agentImage {
+    padding-top: 20px;
+}
+
+#agentFacebook {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
 img {
     max-width: 100%;
     max-height: auto;
