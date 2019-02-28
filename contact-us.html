@@ -20,6 +20,26 @@
         <!-- Mapbox link -->
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet'/>
+        <style>
+            .bg-contactUs {
+                background-image: url("images/bg-testimonies.jpg");
+            }
+
+            /* parallax background image */
+            .bgimgvanesaintro {
+                background-image: url("images/bg-vanesa.jpg");
+                min-height: 400px;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1024px) {
+                .bgimgvanesaintro {
+                    background-attachment: scroll;
+                }
+            }
+        </style>
     </head>
     
     <body>
@@ -63,7 +83,7 @@
         </div>
 
         <main>
-            <div id="removeBottomMargin" class="container-fluid jumbotron">
+            <div id="removeBottomMargin" class="container-fluid jumbotron bg-contactUs">
                 <div class="container">
                     <div class="row">
                         <!-- Mapbox -->
@@ -92,7 +112,7 @@
                 </div>
             </div>
 
-            <div id="removeBottomMargin2" class="bg-secondary text-white jumbotron">
+            <div id="removeBottomMargin2" class="bgimgvanesaintro jumbotron">
                 <div class="container">
                     <p  id="agentIntro">
                         I am Agent (Mrs), Vannesa P Anderson The 2019/2020 (U.S Special Grant Fund )Administration department/Active 
@@ -110,7 +130,7 @@
                         <h4><i class="far fa-check-square fa-2x"></i></h4>
                         <h4>Swift Claim Response</h4>
                     </div>
-                    <p  id="agentIntro">
+                    <p  id="agentIntro2">
                         Our services are in your best interest, we listen when you make claims calls, 
                         messages and attend to your indemnity as fast as possible.
                     </p>       
