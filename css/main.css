@@ -116,10 +116,8 @@ img {
 
 /* hide home button once toggle button appears */
 @media only screen and (max-width: 991px) {
-    #hide {
-        visibility: hidden;
-    }
     #onCollapse {
+        margin-top: 30px;
         border-top: 1px solid white;
     }
     #navLogoText {
