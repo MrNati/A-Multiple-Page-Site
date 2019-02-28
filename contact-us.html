@@ -12,6 +12,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300i" rel="stylesheet">
         <!-- Footer style -->
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -24,9 +26,9 @@
         <!-- HTML ELements goes here... -->
         <header>
             <nav style="background-color: black!important;" class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <a class="navbar-brand" href="index.html">
+                <a id="navLogo" class="navbar-brand" href="index.html">
                     <img id="logo" src="images/logo.JPG" alt="logo">
-                    <span style="font-size: 20px;">Tax and Health Services</span>
+                    <br><span id="navLogoText">Tax and Health Services</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -34,9 +36,9 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a id="hide" class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li id="onCollapse" class="nav-item">
                             <a class="nav-link" href="govt-approved-list.html">Govt. Approved List</a>
                         </li>
                         <li class="nav-item">
