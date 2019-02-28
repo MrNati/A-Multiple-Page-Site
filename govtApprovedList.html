@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Contact Us || Tax and Health Services</title>
+        <title>Govt. Approved List || Tax and Health Services</title>
         <!-- General page style -->
         <link rel="stylesheet" href="css/main.css">
         <!-- bootstrap CDN -->
@@ -17,27 +17,9 @@
         <!-- Footer style -->
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <!-- Mapbox link -->
-        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet'/>
         <style>
-            .bg-contactUs {
-                background-image: url("images/bg-testimonies.jpg");
-            }
-
-            /* parallax background image */
-            .bgimgvanesaintro {
-                background-image: url("images/bg-vanesa.jpg");
-                min-height: 400px;
-                background-attachment: fixed;
-                background-repeat: no-repeat;
-            }
-
-            /* Turn off parallax scrolling for tablets and phones */
-            @media only screen and (max-device-width: 1024px) {
-                .bgimgvanesaintro {
-                    background-attachment: scroll;
-                }
+            .listIntro {
+                background-image: url("images/bgVanesa.jpg");
             }
         </style>
     </head>
@@ -59,82 +41,48 @@
                             <a class="nav-link nav-link-ltr" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="govt-approved-list.html">Govt. Approved List</a>
+                            <a class="nav-link nav-link-ltr" href="govtApprovedList.html">Govt. Approved List</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="beneficiary-list.html">Beneficiary List</a>
+                            <a class="nav-link nav-link-ltr" href="beneficiaryList.html">Beneficiary List</a>
                         </li>    
                         <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="about-us.html">About Us</a>
+                            <a class="nav-link nav-link-ltr" href="aboutUs.html">About Us</a>
                         </li>    
                         <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="contact-us.html">Contact Us</a>
+                            <a class="nav-link nav-link-ltr" href="contactUs.html">Contact Us</a>
                         </li>    
                     </ul>
-                </div>
+                </div>  
             </nav>
         </header>
         
         <!-- Welcome banner image -->
-        <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/contact-us.jpg');">
+        <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/govtApprovedList.jpg');">
             <div class="hero-text">
-                <h1>Contact Us</h1>
+                <h1>Government Approved List</h1>
             </div>
         </div>
 
         <main>
-            <div id="removeBottomMargin" class="container-fluid jumbotron bg-contactUs">
-                <div class="container">
-                    <div class="row">
-                        <!-- Mapbox -->
-                        <div class="col-md-6">
-                            <div id='map'></div>
-                        </div>
-                        <!-- fonts from the footer font awesome external link -->
-                        <div class="col-md-6">
-                            <h4 id="top-margin-testimonies">Your first consultation is <span id="textBlink">Free!</span></h4>
-                            <br>
-                            <p><i class="far fa-envelope fa-1x" style="font-size: 17px;"> Taxhealthservices@gmail.com</i></p>
-                            <p><i class="fab fa-whatsapp-square fa-1x" style="color: green; font-size: 18px;"> <span style="color: black;">+1(707)851-0688</span></i></p>
-                            <br>
-                            <h4>Office Address</h4>
-                            <p>
-                                Tax & Health Service International, PO BOX 15964, Wilmington, Delaware 19850, USA
-                            </p>
-                            <br>
-                            <h4>
-                                <a href="https://www.facebook.com/Agent.vannesa" target="_blank">
-                                    <i class="fab fa-facebook-square fa-1x"> Visit us on Facebook</i>
-                                </a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                
             </div>
-
-            <div id="removeBottomMargin2" class="bgimgvanesaintro jumbotron">
-                <div class="container">
-                    <p  id="agentIntro">
-                        I am Agent (Mrs), Vannesa P Anderson The 2019/2020 (U.S Special Grant Fund )Administration department/Active 
-                        Claiming Agent. This is U.S Special Grant Fund Administration, This program was established by the Federal 
-                        Government in conjunction with the United Nations (UN) & World Bank to help people in the society & all over 
-                        the world to meet up their needs, buy that property that you desire, build that house you have ever wanted 
-                        and also start that fascinating business you have always dreamed of.
-                    </p>            
-                </div>
-            </div>
-
-            <div id="removeBottomMargin3" class="bg-light text-dark jumbotron">
-                <div class="container">
-                    <div style="color: red;">
-                        <h4><i class="far fa-check-square fa-2x"></i></h4>
-                        <h4>Swift Claim Response</h4>
-                    </div>
-                    <p  id="agentIntro2">
-                        Our services are in your best interest, we listen when you make claims calls, 
-                        messages and attend to your indemnity as fast as possible.
-                    </p>       
-                </div>
+            <!-- Table powered by JavaScript -->
+            <div id="tableGovtData" class="container">
+                <h2 style="text-align:center; margin-bottom: 50px; margin-top: 50px; padding: 10px; color: wheat;" class="listIntro">
+                    Names of Persons Approved by the Government
+                </h2>
+                <table id="table" class="table">
+                    <thead id="thead" class="thead-light">
+                        <tr id="tr">
+                            <!-- th created using JS -->
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <!-- both tr and td was created in the JS file -->
+                    </tbody>
+                </table>
             </div>
         </main>
         
@@ -188,7 +136,8 @@
         
         <!-- Link to the JS file -->
         <script src="js/script.js"></script>
-        <script src="js/mapbox.js"></script>
+        <script src="js/table.js"></script>
+        <script src="js/tableGovtData.js"></script>
     </body>
     
     </html>
