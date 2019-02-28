@@ -18,15 +18,25 @@
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <style>
-            /* parallax background image */
             .bgimgtestimonies {
                 background-image: url("images/bg-testimonies.jpg");
                 min-height: 400px;
+                background-repeat: no-repeat;
             }
-
+            
+            /* parallax background image */
             .bgimgvanesaintro {
                 background-image: url("images/bg-vanesa.jpg");
                 min-height: 400px;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1024px) {
+                .bgimgvanesaintro {
+                    background-attachment: scroll;
+                }
             }
         </style>
     </head>
