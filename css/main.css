@@ -77,7 +77,6 @@ body, html {
 
 /* Welcome message */
 #welcomeMessage {
-    background-color: rgb(141, 253, 253);
     color:purple;
     padding: 5px;
     margin-bottom: 2px;
