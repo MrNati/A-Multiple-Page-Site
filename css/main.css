@@ -119,6 +119,22 @@ body, html {
     background-color: rgb(231, 250, 250);
 }
 
+/* Facebook link on homepage */
+#agentFacebook {
+    margin-bottom: 0px;
+    font-size:2em;
+    text-align: center;
+    padding: 15px;
+}
+
+#agentFacebook a {
+    color: white;
+}
+
+#agentFacebook a:hover {
+    color: yellowgreen;
+}
+
 /* Others */
 
 #removeBottomMargin {
@@ -141,9 +157,10 @@ body, html {
 }
 
 #agentIntro {
-    margin-top: 40px;
     font-size: 20px;
     color: rgb(99, 98, 98);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #agentIntro2 {
@@ -160,11 +177,6 @@ body, html {
 
 #agentImage {
     padding-top: 20px;
-}
-
-#agentFacebook {
-    margin-bottom: 0px;
-    padding-bottom: 20px;
 }
 
 img {

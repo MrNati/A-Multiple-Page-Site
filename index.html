@@ -29,10 +29,23 @@
                 min-height: 300px;
                 background-repeat: no-repeat;
             }
+
+            #bg-facebook {
+                background-image: url("images/bgFacebook.jpg");
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1024px) {
+                    #bg-facebook {
+                    background-attachment: scroll;
+                }
+            }
             
             /* Create Background image. Add parallax and opacity to background image */
             .bgimgvanesaintro {
-                min-height: 400px;
+                min-height: 380px;
                 position: relative;
             }
 
@@ -49,7 +62,7 @@
 
             /* Turn off parallax scrolling for tablets and phones */
             @media only screen and (max-device-width: 1024px) {
-                .bgimgvanesaintro {
+                .bgimgvanesaintro::before {
                     background-attachment: scroll;
                 }
             }
@@ -181,12 +194,16 @@
                         & World Bank to help people in the society to meet up their needs, help eradicate poverty 
                         & empowerment worldwide to help build a better future.
                     </p>
-                    <p id="agentFacebook" style="font-size:2em; text-align: center;">
-                        <a href="https://www.facebook.com/Agent.vannesa" target="_blank">
-                            <i class="fab fa-facebook-square fa-1x"> <span style="color: blue;"><br>Click to visit us on Facebook</span></i>
-                        </a>
-                    </p>
                 </div>
+            </div>
+            
+            <!-- Facebook link on home page -->
+            <div id="bg-facebook">
+                <p id="agentFacebook">
+                    <a href="https://www.facebook.com/Agent.vannesa" target="_blank">
+                        <i class="fab fa-facebook-square fa-1x"><br>Click to visit us on Facebook</i>
+                    </a>
+                </p>
             </div>
 
             <!-- The Homepage slide -->
