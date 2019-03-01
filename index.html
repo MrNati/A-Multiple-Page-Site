@@ -30,14 +30,7 @@
                 background-repeat: no-repeat;
             }
             
-            /* parallax background image */
-            /* .bgimgvanesaintro {
-                background-image: url("images/bgVanesa.jpg");
-                min-height: 400px;
-                background-attachment: fixed;
-                background-repeat: no-repeat;
-            } */
-
+            /* Create Background image. Add parallax and opacity to background image */
             .bgimgvanesaintro {
                 min-height: 400px;
                 position: relative;
@@ -50,7 +43,8 @@
                 position: absolute;
                 background-image: url("images/bgVanesa.jpg");
                 background-size: cover;
-                filter: opacity(20%);
+                background-attachment: fixed;
+                filter: opacity(10%);
             }
 
             /* Turn off parallax scrolling for tablets and phones */
@@ -104,9 +98,9 @@
         </div>
 
         <main>
-            <div id="removeBottomMargin" class="container-fluid jumbotron">
+            <div id="removeBottomMargin" class="container-fluid jumbotron bgimgform">
                 <div class="row">
-                    <div class="col-lg-6 bgimgform" style="color:crimson;">
+                    <div class="col-lg-6" style="color:crimson;">
                         <h2>Tax And Health Service Grant</h2>
                         <p>
                             Welcome to (Tax And Health Service) 2019/2020 Humanitarian Grant Department, 
@@ -175,7 +169,7 @@
             </div>
 
             <div class="bgimgvanesaintro">
-                <div class="container bgimgvanesaintro-inside">
+                <div class="container">
                     <img id="agentImage" src="images/customerCare.PNG" class="rounded-circle mx-auto d-block" alt="Cinque Terre" width="304px" height="236px"> 
                     <p  id="agentIntro">
                         I am Agent (Mrs) Vannesa P Anderson. The 2020 (U.S Special Grant Fund)Administration 
