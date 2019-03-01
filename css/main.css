@@ -114,6 +114,11 @@ body, html {
     margin-bottom: 25px;
 }
 
+/* Table and list items background */
+.tbList {
+    background-color: rgb(231, 250, 250);
+}
+
 /* Others */
 
 #removeBottomMargin {
