@@ -152,6 +152,12 @@ body, html {
     color: blueviolet;
 }
 
+#agentIntro3 {
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(252, 229, 229);
+}
+
 #agentImage {
     padding-top: 20px;
 }
