@@ -21,7 +21,7 @@
         <style>
             .bgimgform {
                 background-image: url("images/formBg.png");
-                background-repeat: repeat;
+                background-size: cover;
             }
 
             .bgimgtestimonies {
@@ -31,11 +31,26 @@
             }
             
             /* parallax background image */
-            .bgimgvanesaintro {
+            /* .bgimgvanesaintro {
                 background-image: url("images/bgVanesa.jpg");
                 min-height: 400px;
                 background-attachment: fixed;
                 background-repeat: no-repeat;
+            } */
+
+            .bgimgvanesaintro {
+                min-height: 400px;
+                position: relative;
+            }
+
+            .bgimgvanesaintro::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background-image: url("images/bgVanesa.jpg");
+                background-size: cover;
+                filter: opacity(20%);
             }
 
             /* Turn off parallax scrolling for tablets and phones */
@@ -160,7 +175,7 @@
             </div>
 
             <div class="bgimgvanesaintro">
-                <div class="container">
+                <div class="container bgimgvanesaintro-inside">
                     <img id="agentImage" src="images/customerCare.PNG" class="rounded-circle mx-auto d-block" alt="Cinque Terre" width="304px" height="236px"> 
                     <p  id="agentIntro">
                         I am Agent (Mrs) Vannesa P Anderson. The 2020 (U.S Special Grant Fund)Administration 
