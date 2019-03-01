@@ -119,7 +119,7 @@ body, html {
     background-color: rgb(231, 250, 250);
 }
 
-/* Facebook link on homepage */
+/* Facebook link */
 #agentFacebook {
     margin-bottom: 0px;
     font-size:2em;
@@ -133,6 +133,10 @@ body, html {
 
 #agentFacebook a:hover {
     color: yellowgreen;
+}
+
+#contactUsFbLink a:hover {
+    color: darkred;
 }
 
 /* Others */
