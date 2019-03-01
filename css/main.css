@@ -75,6 +75,14 @@ body, html {
     font-size: 20px;
 }
 
+/* Welcome message */
+#welcomeMessage {
+    background-color: rgb(141, 253, 253);
+    color:purple;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
 /* Form style */
 ::placeholder {
     color: grey!important;
