@@ -107,6 +107,7 @@ body, html {
     background-color: lightblue;
     padding: 10px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 /* Others */
@@ -133,7 +134,7 @@ body, html {
 #agentIntro {
     margin-top: 40px;
     font-size: 20px;
-    color: black;
+    color: rgb(99, 98, 98);
 }
 
 #agentIntro2 {
@@ -175,7 +176,7 @@ img {
 }
 
 #bottom-margin-testimonies {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 #map {
