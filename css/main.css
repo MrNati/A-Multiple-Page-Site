@@ -110,6 +110,10 @@ body, html {
     font-size: 20px;
 }
 
+#bottom-margin-testimonies {
+    margin-bottom: 25px;
+}
+
 /* Others */
 
 #removeBottomMargin {
@@ -173,10 +177,6 @@ img {
 
 .top-margin-about-us {
     margin-top: 20px;
-}
-
-#bottom-margin-testimonies {
-    margin-bottom: 30px;
 }
 
 #map {
