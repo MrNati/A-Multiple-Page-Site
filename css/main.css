@@ -94,6 +94,13 @@ body, html {
     font-style: italic!important;
 }
 
+/* Testimones */
+.bgTestimonies {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 /* Others */
 
 #removeBottomMargin {
