@@ -188,12 +188,6 @@ img {
     max-height: auto;
 }
 
-#flag {
-    width: 30px;
-    height: 20px;
-    float: right;
-}
-
 #list-items {
     margin-left: 50px;
 }

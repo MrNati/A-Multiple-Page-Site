@@ -84,3 +84,28 @@
 		text-align: center;
 	}
 }
+
+#flag {
+    width: 30px;
+    height: 20px;
+}
+
+@media screen and (min-width: 473px) {
+	#footerOne {
+		display: none;
+	}
+
+	#eAnanti {
+		float: left;
+	}
+
+	#flag {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 472px) {
+	#footerTwo {
+		display: none;
+	}
+}
