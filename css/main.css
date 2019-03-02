@@ -155,6 +155,15 @@ body, html {
     text-decoration: none;
 }
 
+/* Whatsapp Number */
+#whatsappContact {
+    color: black;
+}
+
+#whatsappContact:hover {
+    color: green;
+}
+
 /* Others */
 
 #removeBottomMargin {
