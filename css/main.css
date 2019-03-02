@@ -133,10 +133,12 @@ body, html {
 
 #agentFacebook a:hover {
     color: yellowgreen;
+    text-decoration: none;
 }
 
 #contactUsFbLink a:hover {
-    color: darkred;
+    color: darkblue;
+    text-decoration: none;
 }
 
 /* Others */
