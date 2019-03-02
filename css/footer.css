@@ -90,6 +90,10 @@
     height: 20px;
 }
 
+#eAnanti:hover {
+	color: yellowgreen;
+}
+
 @media screen and (min-width: 473px) {
 	#footerOne {
 		display: none;
