@@ -164,6 +164,15 @@ body, html {
     color: green;
 }
 
+/* Email Address Contact Us */
+#emailContact a {
+    color: black;
+}
+
+#emailContact a:hover {
+    color: darkblue;
+}
+
 /* Others */
 
 #removeBottomMargin {
