@@ -118,7 +118,7 @@ body, html {
 
 /* Testimones */
 .bgTestimonies {
-    background-color: lightblue;
+    background-color: rgb(214, 230, 235);
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
