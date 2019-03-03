@@ -103,7 +103,7 @@ body, html {
 }
 
 #formButton {
-    color: darkblue;
+    color: rgb(17, 17, 17);
     background-color: white;
     border: none;
     padding: 7px;
@@ -191,7 +191,7 @@ body, html {
 
 #textBlink {
     margin-bottom: 20px;
-    color: rgb(251, 249, 252);
+    color: rgb(13, 13, 14);
 }
 
 #agentIntro {
