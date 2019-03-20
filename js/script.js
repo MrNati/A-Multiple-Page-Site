@@ -9,5 +9,5 @@ $(document).scroll(function(){
 function myFunction() {
     setTimeout(function(){
         document.getElementById("resetFormField").reset();
-    }, 5000);
+    }, 0);
 }
