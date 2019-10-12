@@ -46,7 +46,13 @@ let objects1 = [
     {"id": "40", 'name': "Funzell Hollins"},
     {"id": "41", 'name': "John Woods"},
     {"id": "42", 'name': " Sri Daryanti"},
-    {"id": "43", 'name': "Ольга Миронюк"}
+    {"id": "43", 'name': "Ольга Миронюк"},
+    {"id": "44", 'name': "Ali Raza Abbas Hashmi"},
+    {"id": "45", 'name': "Johnson Woods"},
+    {"id": "46", 'name': "William Jones"},
+    {"id": "47", 'name': "Brown Kennedy"},
+    {"id": "48", 'name': "Jesica Anderson"},
+    {"id": "48", 'name': "Arain Ayesha"}
 ];
 
 //
