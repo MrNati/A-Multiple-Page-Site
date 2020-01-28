@@ -1,345 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home || Tax and Health Services</title>
-        <link rel="icon" href="images/logo.JPG" type="image/jpg" sizes="16x16">
-        <!-- General page style -->
-        <link rel="stylesheet" href="css/main.css">
-        <!-- bootstrap CDN -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300i" rel="stylesheet">
-        <!-- Footer style -->
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <style>
-            .bgimgform {
-                background-image: url("images/formBg.png");
-                background-size: cover;
-            }
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home || Multiple Page Site</title>
+    <link rel="icon" href="images/logo.JPG" type="image/jpg" sizes="16x16">
+    <!-- General page style -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300i" rel="stylesheet">
+    <!-- Footer style -->
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        .bgimgform {
+            background-image: url("images/formBg.png");
+            background-size: cover;
+        }
 
-            .bgimgtestimonies {
-                background-image: url("images/bgTestimonies.jpg");
-                min-height: 300px;
-                background-repeat: no-repeat;
-            }
+        .bgimgtestimonies {
+            background-image: url("images/bgTestimonies.jpg");
+            min-height: 300px;
+            background-repeat: no-repeat;
+        }
 
+        #bg-facebook {
+            background-image: url("images/bgFacebook.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* Turn off parallax scrolling for tablets and phones */
+        @media only screen and (max-device-width: 1024px) {
             #bg-facebook {
-                background-image: url("images/bgFacebook.jpg");
-                background-size: cover;
-                background-attachment: fixed;
+                background-attachment: scroll;
             }
+        }
 
-            /* Turn off parallax scrolling for tablets and phones */
-            @media only screen and (max-device-width: 1024px) {
-                    #bg-facebook {
-                    background-attachment: scroll;
-                }
-            }
-            
-            /* Create Background image. Add parallax and opacity to background image */
-            .bgimgvanesaintro {
-                min-height: 380px;
-                position: relative;
-            }
+        /* Create Background image. Add parallax and opacity to background image */
+        .bgimgvanesaintro {
+            min-height: 380px;
+            position: relative;
+        }
 
+        .bgimgvanesaintro::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-image: url("images/bgVanesa.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            filter: opacity(10%);
+        }
+
+        /* Turn off parallax scrolling for tablets and phones */
+        @media only screen and (max-device-width: 1024px) {
             .bgimgvanesaintro::before {
-                content: "";
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                background-image: url("images/bgVanesa.jpg");
-                background-size: cover;
-                background-attachment: fixed;
-                filter: opacity(10%);
+                background-attachment: scroll;
             }
+        }
+    </style>
+</head>
 
-            /* Turn off parallax scrolling for tablets and phones */
-            @media only screen and (max-device-width: 1024px) {
-                .bgimgvanesaintro::before {
-                    background-attachment: scroll;
-                }
-            }
-        </style>
-    </head>
-    
-    <body>
-        <!-- HTML ELements goes here... -->
-        <header>
-            <nav style="background-color: black!important;" class="navbar navbar-expand-lg bg-dark navbar-dark">
-                <a id="navLogo" class="navbar-brand" href="index.html">
-                    <img id="logo" src="images/logo.JPG" alt="logo">
-                    <br><span id="navLogoText">Tax and Health Services</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li id="onCollapse" class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="govtApprovedList.html">Govt. Approved List</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="beneficiaryList.html">Beneficiary List</a>
-                        </li>    
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="aboutUs.html">About Us</a>
-                        </li>    
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-ltr" href="contactUs.html">Contact Us</a>
-                        </li>    
-                    </ul>
-                </div> 
-            </nav>
-        </header>
-        
-        <!-- Welcome banner image -->
-        <div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/banner.jpg');">
-            <div class="hero-text">
-                <h1 id="home-banner-message">Tax and Health Services</h1>
-                <p id="home-banner-text">Your Well-being; Our Concern.</p>
+<body>
+    <!-- HTML ELements goes here... -->
+    <header>
+        <nav style="background-color: black!important;" class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a id="navLogo" class="navbar-brand" href="index.html">
+                <img id="logo" src="images/logo.JPG" alt="logo">
+                <br><span id="navLogoText">Multiple Page Site</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li id="onCollapse" class="nav-item">
+                        <a class="nav-link nav-link-ltr" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-ltr" href="govtApprovedList.html">Some List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-ltr" href="beneficiaryList.html">Another List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-ltr" href="aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-ltr" href="contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Welcome banner image -->
+    <div class="hero-image"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/banner.jpg');">
+        <div class="hero-text">
+            <h1 id="home-banner-message">Multiple Page Site</h1>
+            <p id="home-banner-text">Just Messing Around Here.</p>
+        </div>
+    </div>
+
+    <main>
+        <div id="removeBottomMargin" class="container-fluid jumbotron bgimgform">
+            <div class="row">
+                <div class="col-lg-6" id="welcomeMessage">
+                    <h2>etiam dignissim</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Interdum posuere lorem ipsum dolor. Nunc mattis enim ut tellus
+                        elementum. Turpis tincidunt id aliquet risus feugiat in ante. A erat nam at lectus urna duis.
+                        Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Felis bibendum ut tristique
+                        et egestas quis ipsum suspendisse ultrices. Pulvinar sapien et ligula ullamcorper malesuada
+                        proin libero nunc. Vivamus at augue eget arcu dictum varius duis. Amet massa vitae tortor
+                        condimentum lacinia quis vel eros donec. Malesuada fames ac turpis egestas integer eget aliquet
+                        nibh. Vivamus arcu felis bibendum ut. Venenatis urna cursus eget nunc. Cum sociis natoque
+                        penatibus et magnis. Integer feugiat scelerisque varius morbi. Varius morbi enim nunc faucibus a
+                        pellentesque. Sodales ut eu sem integer. Lacus vel facilisis volutpat est velit egestas dui.
+                    </p>
+                    <!-- <img src="images/yoga.jpg" alt="yoga girls" id="welcomeMessageImage"> -->
+                </div>
+
+                <!-- Page form -->
+                <div class="col-lg-6">
+                    <form id="resetFormField" class="form"
+                        action="https://docs.google.com/forms/d/e/1FAIpQLSfNOk5P8lbB2sc8ujPRRQx4SD8odGyayBB_0frLv61gOQ92Xg/formResponse"
+                        target="_blank" style="background-color: #d4d3d3; padding: 10px;">
+                        <h3 id="textBlink">Apply Now!</h3>
+                        <div class="row" style="color:rgb(24, 23, 23); font-weight:400;">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input name="entry.1816343064" type="text" class="form-control"
+                                        placeholder="Enter first name" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input name="entry.1524517272" type="text" class="form-control"
+                                        placeholder="Enter last name" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input name="entry.731089211" type="email" class="form-control"
+                                        placeholder="Enter email address" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <input name="entry.466806349" type="tel" class="form-control"
+                                        placeholder="Enter phone number" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input name="entry.263033351" type="text" class="form-control"
+                                        placeholder="Enter home address" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Occupation</label>
+                                    <input name="entry.21133083" type="text" class="form-control"
+                                        placeholder="Enter job title" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Country</label>
+                                    <input name="entry.1752595117" type="text" class="form-control"
+                                        placeholder="Enter your location within the country" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button id="formButton" type="submit" class="text-center"
+                                onclick="myFunction()">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
             </div>
         </div>
 
-        <main>
-            <div id="removeBottomMargin" class="container-fluid jumbotron bgimgform">
-                <div class="row">
-                    <div class="col-lg-6" id="welcomeMessage">
-                        <h2>Tax And Health Service Grant</h2>
-                        <p>
-                            Welcome to (Tax And Health Service) 2019/2020 Humanitarian Grant Department, 
-                            Grant money is not a loan, Trying to get money through a bank, can be time consuming 
-                            and requires a lot of paperwork, only to find out that you’ve been denied. These Private 
-                            Foundations and Federal Government Grant Agencies don’t have to operate under the stringent 
-                            requirements that banks do. You decide how much money you need, as long as it’s lawful 
-                            and meets with the Foundations criteria, the money is yours to keep and never 
-                            has to be paid back. This money is non taxable interest free.
-                        </p>
-                        <!-- <img src="images/yoga.jpg" alt="yoga girls" id="welcomeMessageImage"> -->
-                    </div>
-
-                    <!-- Page form -->
-                    <div class="col-lg-6">
-                        <form id="resetFormField" class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSfNOk5P8lbB2sc8ujPRRQx4SD8odGyayBB_0frLv61gOQ92Xg/formResponse" target="_blank" style="background-color: #d4d3d3; padding: 10px;">
-                            <h3 id="textBlink">Apply Now!</h3>
-                            <div class="row" style="color:rgb(24, 23, 23); font-weight:400;">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>First Name</label>
-                                        <input name="entry.1816343064" type="text" class="form-control" placeholder="Enter first name" required/>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Last Name</label>
-                                        <input name="entry.1524517272" type="text" class="form-control" placeholder="Enter last name" required/>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Email</label>
-                                        <input name="entry.731089211" type="email" class="form-control" placeholder="Enter email address" required/>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Phone Number</label>
-                                        <input name="entry.466806349" type="tel" class="form-control" placeholder="Enter phone number" required/>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Address</label>
-                                        <input name="entry.263033351" type="text" class="form-control" placeholder="Enter home address" required/>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Occupation</label>
-                                        <input name="entry.21133083" type="text" class="form-control" placeholder="Enter job title" required/>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Country</label>
-                                        <input name="entry.1752595117" type="text" class="form-control" placeholder="Enter your location within the country" required/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <button id="formButton" type="submit" class="text-center" onclick="myFunction()">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                
-                </div>
-            </div>
-
-            <div class="bgimgvanesaintro">
-                <div class="container">
-                    <img id="agentImage" src="images/customerCare.PNG" class="rounded-circle mx-auto d-block" alt="Cinque Terre" width="304px" height="236px"> 
-                    <p  id="agentIntro">
-                        I am Agent (Mrs) Vannesa P Anderson. The 2020 (U.S Special Grant Fund)Administration 
-                        department/Active Claiming Agent. This is U.S Special Grant Fund Administration, 
-                        This program was established by the Federal Government in conjunction with United Nations 
-                        & World Bank to help people in the society to meet up their needs, help eradicate poverty 
-                        & empowerment worldwide to help build a better future.
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Facebook link on home page -->
-            <div id="bg-facebook">
-                <p id="agentFacebook">
-                    <a href="https://www.facebook.com/Agent.vannesa" target="_blank">
-                        <i class="fab fa-facebook-square fa-1x"><br>Click to visit us on Facebook</i>
-                    </a>
-                </p>
-            </div>
-
-            <!-- The Homepage slide -->
-            <div id="removeBottomMargin3" class="carousel slide container-fluid jumbotron bgimgtestimonies" data-ride="carousel">
-                <h3 id="bottom-margin-testimonies" style="color: darkblue;">Testimonies</h3>
-                <div class="carousel-item active">
-                    <div class="bgTestimonies">
-                        <p>"Am really happy that I got the money delivered to me at my door step."</p>
-                        <p><b>Jerrell Taylor</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>"Am so happy here because the money really helped me."</p>
-                        <p><b>Terry Michael Odom</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>"Amazing am so happy! I can’t believe Tax and health services gave me all this money 💰..."</p>
-                        <p><b>Stephanie Miranda Richey</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>"This is real and working. My family is so happy. Thank you so much."</p>
-                        <p><b>LaDonna C. Washington</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>"Wow this is Real and Legit."</p>
-                        <p><b>Tanya Michelle Teague</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>"This is the best grant System I have ever seen. Wow! this money really help me a lot!!"</p>
-                        <p><b>Tina Michelle Martin</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>"I am so happy😀here the tax and health is so real and legit am so excited thank you so much."</p>
-                        <p><b>Lubis Harris</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>Wow😮! I just got all this money delivered to my front door step, this is amazing thanks a lot am grateful💋</p>
-                        <p><b>Panggabean  Irene</b></p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="bgTestimonies">
-                        <p>This is great👍am going to be happy for a life time, thanks so much Tax&health services</p>
-                        <p><b>Smith Rob</b></p>
-                    </div>
-                </div>
-            </div>
-        </main>
-        
-        <footer id="myFooter">
+        <div class="bgimgvanesaintro">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-3 myCols">
-                        <h5>Get started</h5>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Sign up</a></li>
-                            <li><a href="#">Downloads</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3 myCols">
-                        <h5>About us</h5>
-                        <ul>
-                            <li><a href="#">Company Information</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Reviews</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3 myCols">
-                        <h5>Support</h5>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Help desk</a></li>
-                            <li><a href="#">Forums</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3 myCols">
-                        <h5>Legal</h5>
-                        <ul>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div>
+                <img id="agentImage" src="images/customerCare.PNG" class="rounded-circle mx-auto d-block"
+                    alt="Cinque Terre" width="304px" height="236px">
+                <p id="agentIntro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Fermentum
+                    iaculis eu non diam phasellus.
+                </p>
+            </div>
+        </div>
+
+        <!-- Facebook link on home page -->
+        <div id="bg-facebook">
+            <p id="agentFacebook">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square fa-1x"><br>Click to visit us on Facebook</i>
+                </a>
+            </p>
+        </div>
+
+        <!-- The Homepage slide -->
+        <div id="removeBottomMargin3" class="carousel slide container-fluid jumbotron bgimgtestimonies"
+            data-ride="carousel">
+            <h3 id="bottom-margin-testimonies" style="color: darkblue;">Testimonies</h3>
+            <div class="carousel-item active">
+                <div class="bgTestimonies">
+                    <p>"Am really happy that I got the money delivered to me at my door step."</p>
+                    <p><b>Jerrell Taylor</b></p>
                 </div>
             </div>
-            <div class="social-networks">
-                <a href="#" class="facebook"><i class="fab fa-facebook fa-1g"></i></a>
-                <a href="#" class="instagram"><i class="fab fa-instagram fa-1g"></i></a>
-                <a href="#" class="youtube"><i class="fab fa-youtube fa-1g"></i></a>
-                <a href="#" class="twitter"><i class="fab fa-twitter fa-1g"></i></a>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>"Am so happy here because the money really helped me."</p>
+                    <p><b>Terry Michael Odom</b></p>
+                </div>
             </div>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>"Amazing am so happy! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 💰..."</p>
+                    <p><b>Stephanie Miranda Richey</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>"This is real and working. My family is so happy. Thank you so much."</p>
+                    <p><b>LaDonna C. Washington</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>"Wow this is Real and Legit."</p>
+                    <p><b>Tanya Michelle Teague</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>"This is the best grant System I have ever seen. Wow! this money really help me a lot!!"</p>
+                    <p><b>Tina Michelle Martin</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>"I am so happy😀here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+                    </p>
+                    <p><b>Lubis Harris</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>Wow😮! I just got all this money delivered to my front door step, this is amazing thanks a lot am
+                        grateful💋</p>
+                    <p><b>Panggabean Irene</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bgTestimonies">
+                    <p>This is great👍am goiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                    <p><b>Smith Rob</b></p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-            <!-- Footer copyright -->
-            <!-- It has two different footers for phone, tablet and desktop view -->
-            
-            <div id="footerOne" class="footer-copyright">
-                <p>
-                    <a href="https://www.linkedin.com/in/emeka-ananti-a87259109/" target="_blank">
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social-networks">
+            <a href="#" class="facebook"><i class="fab fa-facebook fa-1g"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram fa-1g"></i></a>
+            <a href="#" class="youtube"><i class="fab fa-youtube fa-1g"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter fa-1g"></i></a>
+        </div>
+
+        <!-- Footer copyright -->
+        <!-- It has two different footers for phone, tablet and desktop view -->
+
+        <div id="footerOne" class="footer-copyright">
+            <p>
+                <a href="https://www.linkedin.com/in/emeka-ananti-a87259109/" target="_blank">
+                    <i>Web by E. Ananti</i>
+                </a>
+            </p>
+            <p>Tax and Health Services © 2019</p>
+            <img id="flag" src="images/flag.JPG" alt="US flag">
+        </div>
+
+        <div id="footerTwo" class="footer-copyright">
+            <p>
+                <a href="https://www.linkedin.com/in/emeka-ananti-a87259109/" target="_blank">
+                    <span id="eAnanti">
                         <i>Web by E. Ananti</i>
-                    </a>
-                </p>
-                <p>Tax and Health Services © 2019</p>
-                <img id="flag" src="images/flag.JPG" alt="US flag">
-            </div>
-
-            <div id="footerTwo" class="footer-copyright">
-                <p>
-                    <a href="https://www.linkedin.com/in/emeka-ananti-a87259109/" target="_blank">
-                        <span id="eAnanti">
-                            <i>Web by E. Ananti</i>
-                        </span>
-                    </a>
-                    Tax and Health Services © 2019
-                    <span>
-                        <img id="flag" src="images/flag.JPG" alt="US flag">
                     </span>
-                </p>
-            </div>
-        </footer>
-        
-        <!-- Link to the JS file -->
-        <script src="js/script.js"></script>
-    </body>
-    
-    </html>
+                </a>
+                Tax and Health Services © 2019
+                <span>
+                    <img id="flag" src="images/flag.JPG" alt="US flag">
+                </span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Link to the JS file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
